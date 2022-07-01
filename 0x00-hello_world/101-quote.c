@@ -1,15 +1,12 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - prints size of various bytes
- * Return: 0 is an integer
+ * main - prints and that piece of art is useful
+ * Return: 1 ia a whole number
  */
 int main(void)
 {
-	printf("Size of a char: %d byte(s)\n", sizeof(char));
-	printf("Size of an int: %d byte(s)\n", sizeof(int));
-	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
-	printf("Size of a float: %d byte(s)\n", sizeof(float));
-	return (0);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
