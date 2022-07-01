@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers from 0 t0 9
+ * main -prints numbers from 0 t0 9
  *
  * Return: success always
  */
 int main(void)
 {
-	char n;
+	int n;
 
 	for (n = '0'; n <= '9'; n++)
 	{
