@@ -7,7 +7,7 @@
  *
  * Return: success always
  */
-int main(0)
+int main(void)
 {
 	int n, lastd;
 
