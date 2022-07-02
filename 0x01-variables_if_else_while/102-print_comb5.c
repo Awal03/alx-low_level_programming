@@ -5,7 +5,7 @@
  *
  * Return: success always
  */
-int main(void);
+int main(void)
 {
 	int c, i, k, j;
 
