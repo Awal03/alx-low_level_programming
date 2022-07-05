@@ -5,7 +5,7 @@
 */
 
 void print_alphabet(void)
-{
+ {
 	int k;
 
 	for (k = 'a'; k <= 'z'; k++)
@@ -14,4 +14,4 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 
-}
+ }
