@@ -3,6 +3,8 @@
 /**
  * _islower - function checks for lowercase
  *
+ * @b: alphabet
+ *
  * Return: success if 1
  */
 int _islower(int b)
