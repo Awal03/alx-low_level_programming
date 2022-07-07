@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_more_numbers - prints more digits
+ * print_most_numbers - prints more digits
  *
  * Return: void
  */
-void print_more_numbers(void)
+void print_most_numbers(void)
 {
 	char c;
 
