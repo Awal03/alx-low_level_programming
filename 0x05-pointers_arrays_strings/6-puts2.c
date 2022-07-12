@@ -4,7 +4,7 @@
  * puts2 - prints every other character of  string
  * @str: the string to print
  */
-void puts2(charm *str)
+void puts2(char *str)
 {
 	int i;
 	int j;
