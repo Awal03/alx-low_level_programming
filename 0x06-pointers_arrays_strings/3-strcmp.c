@@ -6,7 +6,7 @@
  * @s2: second string
  * Return: 0 means success
  */
-char *_strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i = 0, j = 0;
 
