@@ -6,13 +6,13 @@
  * @n: size of byte
  * Return: dest
  */
-char *_strncat(char *dest, char *src, int n)
+char    *_strncat(char *dest, char *src, int n)
 {
 	int count = 0, count1 = 0;
 
 	while (*(dest + count) != '\0')
 	{
-		count++
+		count++;
 	}
 
 	while (count1 < n)
